@@ -138,7 +138,7 @@
                   <div class="preview">
 	<div id="vertical" class="bigImg">
         {% for book_detail in book_details %}
-		<img src="{% static book_detail.pics %}" width="320" height="320" alt="" id="midimg" />
+		<img src="{% static book_detail.pics.url %}" width="320" height="320" alt="" id="midimg" />
 
 
 		<div style="display:none;" id="winSelector"></div>
@@ -147,7 +147,7 @@
 		<div class="scrollbutton smallImgUp disabled"></div>
 		<div id="imageMenu">
 			<ul>
-				<li id="onlickImg"><img src="{% static book_detail.pics %}" width="68" height="68" alt="洋妞"/></li>
+				<li id="onlickImg"><img src="{% static book_detail.pics.url %}" width="68" height="68" alt="洋妞"/></li>
 				<li><img src="{% static 'images/img01.jpg' %}" width="68" height="68" alt="洋妞"/></li>
 				<li><img src="{% static 'images/img02.jpg' %}" width="68" height="68" alt="洋妞"/></li>
 				<li><img src="{% static 'images/img03.jpg' %}" width="68" height="68" alt="洋妞"/></li>

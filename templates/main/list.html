@@ -1,4 +1,23 @@
 <style>
+    .a{
+                width:20px;
+                height: 20px;
+                border:1px solid #e1e2e3;
+                cursor:pointer;
+                display: inline-block;
+                text-align: center;
+                line-height: 20px;
+                }
+    .b{
+                border:0;
+                width:20px;
+                height: 20px;
+                cursor:pointer;
+                display: inline-block;
+                text-align: center;
+                line-height: 20px;
+                color: dodgerblue;
+                }
     a {
         text-decoration: none;
     }
@@ -38,6 +57,7 @@
     .bottom {
         font-size: 13px;
         padding-left: 15px;
+        padding-top: 15px;
         position: relative;
     }
 
@@ -97,9 +117,9 @@
             <td></td>
             <td></td>
             <td>
-                <a href="#?id={{ u.id }}&number={{ number }}"
-                   onclick="deteledata()">删除员工</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
-                    href="#?id={{ u.id }}&number={{ number }}">修改员工</a>
+                <a style="color: #2ca024" href="{% url 'main:delete' %}?id={{ u.id }}&number={{ number }}"
+                   onclick="deteledata()">删除员工</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a style="color: #2ca024" href="{% url 'main:delete' %}?id={{ u.id }}&number={{ number }}">修改员工</a>
             </td>
         </tr>
     {% endfor %}
@@ -124,15 +144,14 @@
     {#            </td>#}
     {#        </tr>#}
     {#    {% endfor %}#}
-
 </table>
 <div class="bottom">
     <div style="text-align: center" id="pa">
         {% if page.has_previous %}
-            <a href="#?number={{ page.previous_page_number }}">上一页</a>
+            <a href="{% url 'main:list' %}?number={{ page.previous_page_number }}">上一页</a>
         {% endif %}
         {% for n in page.paginator.page_range %}
-            <a href="#?number={{ n }}">
+            <a href="{% url 'main:list' %}?number={{ n }}">
                 {% if n == page.number %}
                     <span class="b">{{ n }}</span>
                 {% else %}
@@ -145,7 +164,7 @@
 
         {% endfor %}
         {% if page.has_next %}
-            <a href="#?number={{ page.next_page_number }}">下一页</a>
+            <a href="{% url 'main:list' %}?number={{ page.next_page_number }}">下一页</a>
         {% endif %}
     </div>
 </div>

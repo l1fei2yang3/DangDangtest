@@ -7,6 +7,7 @@ urlpatterns = [
     path('index/', views.index,name="index"),
     path('add/', views.add,name="add"),
     path('addlogic/', views.addlogic,name="addlogic"),
+    path('delete/', views.delete,name="delete"),
     path('dzlist/', views.dzlist,name="dzlist"),
     path('list/', views.list,name="list"),
     path('splb/', views.splb,name="splb"),

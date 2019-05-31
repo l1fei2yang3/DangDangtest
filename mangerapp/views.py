@@ -41,10 +41,23 @@ def list(request):#商品列表
     if not number: #判断如果页面为空的话
         number=1 #页码的值默认为1
     select=TBook.objects.all()#查询全部书籍
-    pagtor = Paginator(select, per_page=6)#将查询到的数据进行每一页6条数据划分
+    pagtor = Paginator(select, per_page=6)  # 将查询到的数据进行每一页6条数据划分
+    if not request.session.get("dele_number"):#判断接收到的共享的页码值是否为空
+        page=pagtor.page(number)#如果是空值，就将前端接收到的页码值
+
     page = pagtor.page(number)#统计出划分出来的页码值
     # 渲染页面并将查询到全部书籍的QuerySet对象发送到前端页面
     return render(request,'main/list.html',{"select":select,"page":page})
+def delete(request):
+    id=request.GET.get("id")#接收前端发来的商品id
+    number=request.GET.get("number")#接收前端发来的页面所在的页码
+    cout=TBook.objects.all().count()#查询数据库中所有书籍并且计数
+    if cout % 6==1 and int(number)>1: #判断书籍总数量是否能够整除6(因为一个页面显示6条数据)并且返回的页码值是否大于1
+        number=int(number)-1 #满足条件页码就减1
+    de_id=TBook.objects.filter(id=id)[0]#通过传来要删除的id查询对应的商品的id(因为查询到的是QuerySet对象，是一个list，所以通过下标0获取值)
+    TBook.objects.get(id=de_id).delete()#通过id删除掉对应的商品数据
+    request.session["dele_number"]=number#将改变后的页码值共享出去
+    return redirect("main:list")
 def splb(request):
     return render(request,'main/splb.html')
 def test(request):

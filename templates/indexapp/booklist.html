@@ -559,7 +559,7 @@
                   <ul class="list_aa listimg" id="component_0__0__3058">
                       {% for bl in page.object_list %}
         <li class="line1" id="23668351">
-                      <div class="inner"> <a title=" {{ bl.book_name }} " class="pic" href="{% url 'indexapp:bookdetails' %}?book_id={{ bl.id }}" target="_blank"><img src="{% static bl.pics %}" alt=" {{ bl.book_name }} "></a>
+                      <div class="inner"> <a title=" {{ bl.book_name }} " class="pic" href="{% url 'indexapp:bookdetails' %}?book_id={{ bl.id }}" target="_blank"><img src="{% static bl.pics.url %}" alt=" {{ bl.book_name }} "></a>
             <p class="name"><a title=" {{ bl.book_name }}" href="{% url 'indexapp:bookdetails' %}?book_id={{ bl.id }}" target="_blank"> {{ bl.book_name }} </a></p>
             <p class="star"><span class="level"><span style="width: 100%;"></span></span><a href="{% url 'indexapp:bookdetails' %}?book_id={{ bl.id }}" target="_blank" name="P_pl">163条评论</a></p>
             <div class="publisher_info">

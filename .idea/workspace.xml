@@ -2,89 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0641107f-1ebd-4235-a13b-8fff4dbf2a75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mangerapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mangerapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mangerapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mangerapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mangerapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mangerapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mangerapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mangerapp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/book_price/0dd927f0-23de-4808-bec6-eabb18266284.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bs3/bui-min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bs3/bui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bs3/dpl-min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bs3/dpl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bui-min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/dpl-min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/main-min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/page-min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/prettify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/calendar-200-300.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/check_icon-100-100.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/checkbox.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/hide_list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/icon-806-614.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/left-slib.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/load-16-16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/main-nav-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/main-nav-bg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/menu-500-188.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/menu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/nav.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/nav_selected.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/radio_icon-64-40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/resource.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/separator-2-340.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sprite-469-300.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/tab-140-120.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/table-191-450.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/tool-sprites.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/tree.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/tree_icon-80-100.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/ui-img-view-height.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/ui-img-view-height.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/ui-img-view-width.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/ui-img-view-width.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/white_sprite-469-300.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bui-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/chart-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/common/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/common/main-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/common/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/common/page-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/common/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/common/search-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/common/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/config-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/extensions/treegrid-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/extensions/treepicker-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/graphic-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery-1.8.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/module/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/slider-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/dzlist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/splb.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/zjsp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/zjzlb.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userapp/migrations/0004_auto_20190531_1730.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DangDang/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DangDang/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DangDang/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DangDang/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/unite_header_1129.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/unite_header_1129.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/userapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/userapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangerapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mangerapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mangerapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mangerapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/indexapp/Book details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/indexapp/Book details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/indexapp/booklist.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/indexapp/booklist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/indexapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/indexapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shopapp/car.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/shopapp/car.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +29,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/shopapp/car.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="111" column="147" lean-forward="true" selection-start-line="111" selection-start-column="147" selection-end-line="111" selection-end-column="147" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/main/add.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="116">
@@ -115,13 +49,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/main/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="118" column="20" lean-forward="true" selection-start-line="118" selection-start-column="20" selection-end-line="118" selection-end-column="20" />
+            <state relative-caret-position="150">
+              <caret line="119" column="71" selection-start-line="119" selection-start-column="71" selection-end-line="119" selection-end-column="71" />
               <folding>
+                <element signature="e#2638#2660#0#HTML" expanded="true" />
                 <element signature="e#2280#2286#0#HTML" expanded="true" />
                 <element signature="e#2286#2292#0#HTML" expanded="true" />
                 <element signature="e#2292#2298#0#HTML" expanded="true" />
                 <element signature="e#2298#2304#0#HTML" expanded="true" />
+                <element signature="e#2798#2820#0#HTML" expanded="true" />
                 <element signature="e#1881#1907#0#HTML" expanded="true" />
               </folding>
             </state>
@@ -129,21 +65,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/css/unite_header_1129.css">
+        <entry file="file://$PROJECT_DIR$/mangerapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-435">
-              <caret line="87" column="78" selection-start-line="87" selection-start-column="65" selection-end-line="87" selection-end-column="78" />
+            <state relative-caret-position="106">
+              <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mangerapp/views.py">
+        <entry file="file://$PROJECT_DIR$/DangDang/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="46" column="71" selection-start-line="46" selection-start-column="71" selection-end-line="46" selection-end-column="71" />
+            <state relative-caret-position="221">
+              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#632#664#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,8 +99,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>节省</find>
-      <find>jQuery</find>
       <find>删除</find>
       <find>已选择</find>
       <find>t_table</find>
@@ -190,6 +127,8 @@
       <find>tr</find>
       <find>all_price</find>
       <find>Con</find>
+      <find>new</find>
+      <find>clearfix</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -206,8 +145,6 @@
         <option value="$PROJECT_DIR$/templates/userapp/login.html" />
         <option value="$PROJECT_DIR$/userapp/tests.py" />
         <option value="$PROJECT_DIR$/shopapp/cart.py" />
-        <option value="$PROJECT_DIR$/templates/indexapp/Book details.html" />
-        <option value="$PROJECT_DIR$/templates/indexapp/index.html" />
         <option value="$PROJECT_DIR$/shopapp/urls.py" />
         <option value="$PROJECT_DIR$/templates/userapp/register.html" />
         <option value="$PROJECT_DIR$/indexapp/views.py" />
@@ -218,25 +155,28 @@
         <option value="$PROJECT_DIR$/templates/shopapp/indent ok.html" />
         <option value="G:/Django/XUni/testenv/Lib/importlib/__init__.py" />
         <option value="$PROJECT_DIR$/shopapp/views.py" />
-        <option value="$PROJECT_DIR$/templates/indexapp/booklist.html" />
         <option value="$PROJECT_DIR$/send_email.py" />
         <option value="$PROJECT_DIR$/userapp/urls.py" />
-        <option value="$PROJECT_DIR$/templates/shopapp/car.html" />
         <option value="$PROJECT_DIR$/userapp/models.py" />
         <option value="$PROJECT_DIR$/userapp/views.py" />
-        <option value="$PROJECT_DIR$/DangDang/urls.py" />
         <option value="$PROJECT_DIR$/DangDang/settings.py" />
         <option value="$PROJECT_DIR$/templates/main/add.html" />
-        <option value="$PROJECT_DIR$/mangerapp/views.py" />
-        <option value="$PROJECT_DIR$/templates/main/list.html" />
         <option value="$PROJECT_DIR$/static/css/unite_header_1129.css" />
+        <option value="$PROJECT_DIR$/templates/indexapp/index.html" />
+        <option value="$PROJECT_DIR$/templates/indexapp/booklist.html" />
+        <option value="$PROJECT_DIR$/templates/indexapp/Book details.html" />
+        <option value="$PROJECT_DIR$/templates/shopapp/car.html" />
+        <option value="$PROJECT_DIR$/DangDang/urls.py" />
+        <option value="$PROJECT_DIR$/mangerapp/urls.py" />
+        <option value="$PROJECT_DIR$/templates/main/list.html" />
+        <option value="$PROJECT_DIR$/mangerapp/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="35" />
-    <option name="y" value="272" />
-    <option name="width" value="1560" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1693" />
     <option name="height" value="990" />
   </component>
   <component name="ProjectView">
@@ -260,24 +200,25 @@
             <path>
               <item name="DangDang" type="b2602c69:ProjectViewProjectNode" />
               <item name="DangDang" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangDang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DangDang" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DangDang" type="b2602c69:ProjectViewProjectNode" />
               <item name="DangDang" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="indexapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DangDang" type="b2602c69:ProjectViewProjectNode" />
               <item name="DangDang" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DangDang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DangDang" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="shopapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -500,7 +441,7 @@
       <workItem from="1559090174619" duration="95000" />
       <workItem from="1559293004661" duration="57000" />
       <workItem from="1559294128370" duration="1498000" />
-      <workItem from="1559298777403" duration="5255000" />
+      <workItem from="1559298777403" duration="8524000" />
     </task>
     <task id="LOCAL-00001" summary="用pycharm提交">
       <created>1559007494703</created>
@@ -530,22 +471,29 @@
       <option name="project" value="LOCAL" />
       <updated>1559036635521</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="增加了后台管理员系统">
+      <created>1559305390258</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559305390258</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167653000" />
+    <option name="totallyTimeSpent" value="170922000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="57" y="286" width="1354" height="792" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1152815" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13271604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.349162" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.37878788" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -571,7 +519,8 @@
     <MESSAGE value="用die提交" />
     <MESSAGE value="第三次练习用pycharm提交远程" />
     <MESSAGE value="修改了购物车添加按钮出错的问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了购物车添加按钮出错的问题" />
+    <MESSAGE value="增加了后台管理员系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了后台管理员系统" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DangDang$views.coverage" NAME="views Coverage Results" MODIFIED="1558926822661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/userapp" />
@@ -601,13 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/indexapp/Book details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2460">
-          <caret line="82" column="70" selection-start-line="82" selection-start-column="70" selection-end-line="82" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -626,13 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="244" column="60" lean-forward="true" selection-start-line="244" selection-start-column="60" selection-end-line="244" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/indexapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="50" column="43" lean-forward="true" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -669,13 +604,6 @@
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/indexapp/booklist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18390">
-          <caret line="613" column="53" selection-start-line="613" selection-start-column="53" selection-end-line="613" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -717,13 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/shopapp/car.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6900">
-          <caret line="230" column="31" selection-start-line="230" selection-start-column="31" selection-end-line="230" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -796,26 +717,6 @@
     <entry file="file://$PROJECT_DIR$/static/css/bs3/bui.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DangDang/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-          <folding>
-            <element signature="e#632#664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mangerapp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DangDang/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -837,37 +738,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mangerapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="46" column="71" selection-start-line="46" selection-start-column="71" selection-end-line="46" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/images/unite_header_1101.gif">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/main/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="118" column="20" lean-forward="true" selection-start-line="118" selection-start-column="20" selection-end-line="118" selection-end-column="20" />
-          <folding>
-            <element signature="e#2280#2286#0#HTML" expanded="true" />
-            <element signature="e#2286#2292#0#HTML" expanded="true" />
-            <element signature="e#2292#2298#0#HTML" expanded="true" />
-            <element signature="e#2298#2304#0#HTML" expanded="true" />
-            <element signature="e#1881#1907#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/unite_header_1129.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-435">
           <caret line="87" column="78" selection-start-line="87" selection-start-column="65" selection-end-line="87" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/indexapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="462" column="126" selection-start-line="462" selection-start-column="126" selection-end-line="462" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/indexapp/booklist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="564" column="40" lean-forward="true" selection-start-line="564" selection-start-column="40" selection-end-line="564" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/indexapp/Book details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="149" column="75" selection-start-line="149" selection-start-column="75" selection-end-line="149" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/shopapp/car.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="111" column="147" lean-forward="true" selection-start-line="111" selection-start-column="147" selection-end-line="111" selection-end-column="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mangerapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DangDang/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="119" column="71" selection-start-line="119" selection-start-column="71" selection-end-line="119" selection-end-column="71" />
+          <folding>
+            <element signature="e#2638#2660#0#HTML" expanded="true" />
+            <element signature="e#2280#2286#0#HTML" expanded="true" />
+            <element signature="e#2286#2292#0#HTML" expanded="true" />
+            <element signature="e#2292#2298#0#HTML" expanded="true" />
+            <element signature="e#2298#2304#0#HTML" expanded="true" />
+            <element signature="e#2798#2820#0#HTML" expanded="true" />
+            <element signature="e#1881#1907#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mangerapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

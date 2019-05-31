@@ -330,7 +330,7 @@
               <li  >
                   {% for new_book in new_books %}
                 <dl class="clearfix">
-                  <dt><a class="img" href="{% url 'indexapp:bookdetails' %}?book_id={{ new_book.id }}" target="_blank"><img src="{% static new_book.pics %}" alt=""></a></dt>
+                  <dt><a class="img" href="{% url 'indexapp:bookdetails' %}?book_id={{ new_book.id }}" target="_blank"><img src="{% static new_book.pics.url %}" alt=""></a></dt>
                   <dd>
                     <p class="name" ><a title="" href="#" target="_blank" style=" ">{{ new_book.book_name }}</a></p>
                     <p class="author"><span class="author_t"></span>{{ new_book.anthor }}</p>
@@ -380,7 +380,7 @@
                           
                 <div> <a class="list_name" href="{% url 'indexapp:bookdetails' %}?book_id={{ sales.id }}">{{ sales.book_name }}</a>
                   <dl class="list_con clearfix">
-                    <dt><a href="{% url 'indexapp:bookdetails' %}?book_id={{ sales.id }}"><img src="{% static sales.pics %}" /></a></dt>
+                    <dt><a href="{% url 'indexapp:bookdetails' %}?book_id={{ sales.id }}"><img src="{% static sales.pics.url %}" /></a></dt>
                     <dd>
                       <p class="name"><a href="{% url 'indexapp:bookdetails' %}?book_id={{ sales.id }}">{{ sales.book_name }}</a></p>
                       <b>￥{{ sales.dangdang_price }}</b><em>￥{{ sales.market_price }}</em><a class="pl" href="{% url 'indexapp:bookdetails' %}?book_id={{ sales.id }}">111条评论</a></dd>
@@ -427,7 +427,7 @@
                 {% for sal in saless_book %}
               <dl class="clearfix">
 
-                  <dt><a class="img" href="{% url 'indexapp:bookdetails' %}?book_id={{ sal.id }}" target="_blank"><img src="{% static sal.pics %}" alt=""></a></dt>
+                  <dt><a class="img" href="{% url 'indexapp:bookdetails' %}?book_id={{ sal.id }}" target="_blank"><img src="{% static sal.pics.url %}" alt=""></a></dt>
                   <dd>
                     <p class="name" ><a title="" href="{% url 'indexapp:bookdetails' %}?book_id={{ sal.id }}" target="_blank" style=" ">{{ sal.book_name }}</a></p>
                     <p class="author"><span class="author_t"></span>{{ sal.anthor }} &nbsp;著</p>
@@ -460,7 +460,7 @@
               <li class="active"> <span class="num num1">{{ forloop.counter }}</span>
                 <div> <a class="list_name" href="{% url 'indexapp:bookdetails' %}?book_id={{ saless.id }}">{{ saless.book_name }}</a>
                   <dl class="list_con clearfix">
-                    <dt><a href="{% url 'indexapp:bookdetails' %}?book_id={{ saless.id }}"><img src="{% static saless.pics %}"></a></dt>
+                    <dt><a href="{% url 'indexapp:bookdetails' %}?book_id={{ saless.id }}"><img src="{% static saless.pics.url %}"></a></dt>
                     <dd>
                       <p class="name"><a href="{% url 'indexapp:bookdetails' %}?book_id={{ saless.id }}">{{ saless.book_name }}</a></p>
                       <b>￥{{ saless.dangdang_price }}</b><em>￥{{ saless.market_price }}</em><a class="pl" href="{% url 'indexapp:bookdetails' %}?book_id={{ saless.id }}">112条评论</a></dd>
