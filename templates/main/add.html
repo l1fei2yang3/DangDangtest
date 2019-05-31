@@ -1,0 +1,77 @@
+<style>
+	.table1{
+		border-color: lightgray;
+	}
+	.td1,.td2{
+		height: 36px;
+	}
+	.td1{
+		text-align: right;
+		padding-right: 5px;
+		background-color: rgb(230,242,254);
+		font-size: 14px;
+	}
+	.td2{
+		padding-left: 5px;
+	}
+</style>
+<form action="{% url 'main:addlogic' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <table class="table1" border="1" cellspacing="0" width="800px">
+	<tr>
+		<td class="td1">商品名称:</td>
+		<td class="td2"><input type="text" name="productname"/></td>
+	</tr>
+	<tr>
+		<td class="td1">作者:</td>
+		<td class="td2"><input type="text" name="author"/></td>
+	</tr>
+	<tr>
+		<td class="td1">出版社:</td>
+		<td class="td2"><input type="text" name="press"/></td>
+	</tr>
+	<tr>
+		<td class="td1">商品父类:</td>
+		<td class="td2">
+			<select>
+				<option>例子</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td class="td1">出版日期:</td>
+		<td class="td2">
+			<input type="date" name="publication_time"/>
+		</td>
+	</tr>
+      <tr>
+		<td class="td1">市场价:</td>
+		<td class="td2"><input type="text" name="market_price"/></td>
+	</tr>
+    <tr>
+		<td class="td1">当当价:</td>
+		<td class="td2"><input type="text" name="dangdang_price"/></td>
+	</tr>
+    <tr>
+		<td class="td1">书籍图片:</td>
+        <td class="td2"><img src="" alt="" width="40px" id="headimg">
+            <input type="file" name="book_price" id="changimg" onchange="chang()"/>
+        </td>
+	</tr>
+</table>
+    <div style="margin-left: 400px;padding-top: 10px">
+        <input type="submit" value="提交">
+    </div>
+</form>
+<script>
+    headimg=document.getElementById("headimg");
+    headimg.hidden=true;
+    function chang() {
+        changimg=document.getElementById("changimg")
+        headimg=document.getElementById("headimg")
+        if (changimg.files){
+            headimg.hidden=false;
+            headimg.src=window.URL.createObjectURL(changimg.files[0])
+        }
+    }
+</script>

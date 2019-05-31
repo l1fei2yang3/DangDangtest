@@ -9,7 +9,7 @@ from django.shortcuts import render, HttpResponse, redirect
 
 # Create your views here.
 from userapp.captcha.image import ImageCaptcha
-from userapp.models import TUser, Confirm_string
+from userapp.models import TUser, TConfirmString
 
 
 def login(request):
@@ -180,7 +180,7 @@ def getcaptcha(request):
 
 def verify_emil(request):  #验证邮箱
     code = request.GET.get("code")
-    email_ok = Confirm_string.objects.filter(code=code)
+    email_ok = TConfirmString.objects.filter(code=code)
     if email_ok:
         ee=email_ok[0].email
         user = TUser.objects.get(email=ee)
@@ -208,7 +208,7 @@ def make_confirm_string(a):
     print(a,'188')
 
     codes=hash_code(a)
-    Confirm_string.objects.create(code=codes,email=a)
+    TConfirmString.objects.create(code=codes,email=a)
     return codes
 
 

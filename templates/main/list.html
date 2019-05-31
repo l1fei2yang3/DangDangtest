@@ -1,0 +1,159 @@
+<style>
+    a {
+        text-decoration: none;
+    }
+
+    .d1 {
+        background-color: rgb(53, 60, 68);
+        position: relative;
+        height: 30px;
+        line-height: 30px;
+        padding-left: 10px;
+    }
+
+    .s1 {
+        font-size: 12px;
+        color: white;
+    }
+
+    .s2 {
+        position: absolute;
+        right: 10px;
+    }
+
+    .s2 a {
+        color: white;
+        font-size: 12px;
+        text-decoration: none;
+    }
+
+    .t1 {
+        border-color: aliceblue;
+        margin-top: 2px;
+        font-size: 12px;
+        text-align: center;
+        background-color: rgb(230, 242, 254);
+    }
+
+    .bottom {
+        font-size: 13px;
+        padding-left: 15px;
+        position: relative;
+    }
+
+    .bs {
+        position: absolute;
+        right: 40px;
+    }
+
+    .bs a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .bs a:hover {
+        color: cornflowerblue;
+        text-decoration: underline;
+    }
+</style>
+{% load static %}
+<div class="d1">
+    <span class="s1">管理人员基本信息表</span>
+    <span class="s2">
+		<a href="#">添加</a>
+		<a href="#">删除</a>
+	</span>
+</div>
+<table border="2" width="100%" cellspacing="0" class="t1">
+    <tr>
+        <td>
+            <input type="checkbox"/>
+        </td>
+        <td>商品ID</td>
+        <td>商品名称</td>
+        <td>作者</td>
+        <td>出版社</td>
+        <td>市场价</td>
+        <td>当当价</td>
+        <td>图片</td>
+        <td>库存</td>
+        <td>商品种类</td>
+        <td>基本操作</td>
+    </tr>
+    {% for u in page.object_list %}
+        <tr>
+            <td>
+                <input type="checkbox"/>
+            </td>
+            <td>{{ u.id }}</td>
+            <td>{{ u.book_name }}</td>
+            <td>{{ u.anthor }}</td>
+            <td>{{ u.book_publish }}</td>
+            <td>{{ u.market_price }}</td>
+            <td>{{ u.dangdang_price }}</td>
+            <td>{% if u.pics %}
+                <img src="{% static u.pics.url %}" alt="{{ u.book_name }}" width="40px"></td>
+            {% endif %}
+            <td></td>
+            <td></td>
+            <td>
+                <a href="#?id={{ u.id }}&number={{ number }}"
+                   onclick="deteledata()">删除员工</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
+                    href="#?id={{ u.id }}&number={{ number }}">修改员工</a>
+            </td>
+        </tr>
+    {% endfor %}
+    {#    {% for se in select %}#}
+    {#        <tr>#}
+    {#            <td>#}
+    {#                <input type="checkbox"/>#}
+    {#            </td>#}
+    {#            <td>{{ se.id }}</td>#}
+    {#            <td>{{ se.book_name }}</td>#}
+    {#            <td>{{ se.anthor }}</td>#}
+    {#            <td>{{ se.book_publish }}</td>#}
+    {#            <td>{{ se.market_price }}</td>#}
+    {#            <td>{{ se.dangdang_price }}</td>#}
+    {#            <td>{% if se.pics %}#}
+    {#                <img src="{% static se.pics.url %}" alt="{{ se.book_name }}" width="40px"></td>#}
+    {#            {% endif %}#}
+    {#            <td></td>#}
+    {#            <td></td>#}
+    {#            <td>#}
+    {#                <a href="#" onclick="deteledata()">删除员工</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">修改员工</a>#}
+    {#            </td>#}
+    {#        </tr>#}
+    {#    {% endfor %}#}
+
+</table>
+<div class="bottom">
+    <div style="text-align: center" id="pa">
+        {% if page.has_previous %}
+            <a href="#?number={{ page.previous_page_number }}">上一页</a>
+        {% endif %}
+        {% for n in page.paginator.page_range %}
+            <a href="#?number={{ n }}">
+                {% if n == page.number %}
+                    <span class="b">{{ n }}</span>
+                {% else %}
+                    <span class="a">{{ n }}</span>
+                {% endif %}
+            </a>
+        {% endfor %}
+
+        {% for page in page.paginator.page_range %}
+
+        {% endfor %}
+        {% if page.has_next %}
+            <a href="#?number={{ page.next_page_number }}">下一页</a>
+        {% endif %}
+    </div>
+</div>
+{#<div class="bottom">#}
+{#	共有 条记录，当前第 页，共 页#}
+{#	<span class="bs">#}
+{#		<a href="#" style="margin-right: 20px;">上一页</a>#}
+{#		#}
+{#		<a href="#">下一页</a>#}
+{#	</span>#}
+{#</div>#}

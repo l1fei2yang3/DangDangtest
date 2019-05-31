@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'userapp',
     'indexapp',
     'shopapp',
+    'mangerapp',
 ]
 
 MIDDLEWARE = [
@@ -137,6 +138,7 @@ EMAIL_HOST_USER = 'li1301899656@sina.com'
 # 对应用户的密码
 EMAIL_HOST_PASSWORD = '211314lifei'
 
+MEDIA_ROOT=os.path.join(BASE_DIR,'static')#将来上传的文件将会被放在mdeia目录中
 STATIC_URL = '/static/'#访问静态资源时的URL的前缀
-STATICFILES_DIRS = [ os.path.join(BASE_DIR, 'static')]#增加静态资源的访问路径
+STATICFILES_DIRS = [ os.path.join(BASE_DIR, 'static'),MEDIA_ROOT]#增加静态资源的访问路径
 SESSION_EXPIRE_AT_BROWSER_CLOSE=True

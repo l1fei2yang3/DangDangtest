@@ -16,7 +16,7 @@ img{border:0;}
 .ddnewhead_wrap h1,.ddnewhead_wrap h2,.ddnewhead_wrap h3,.ddnewhead_wrap h4,.ddnewhead_wrap h5,.ddnewhead_wrap h6{font-size:12px;font-weight:normal}
 .ddnewhead_operate a,.ddnewhead_operate li a{ color:#404040; text-decoration:none;}
 .ddnewhead_operate a:hover,.ddnewhead_operate li a:hover{ color:#f60; text-decoration:underline;}
-.ddnewhead_content{ width:960px;margin:0 auto;padding-top:2px;height:71px;color:#404040;background:#fff url(/images/unite_header_bg_1101.gif) repeat-x 0 -148px;}
+.ddnewhead_content{ width:960px;margin:0 auto;padding-top:2px;height:71px;color:#404040;background:#fff url(../images/unite_header_1101.gif) repeat-x 0 -148px;}
 
 /*通用页头*/ 
 /*页头（操作区）*/
@@ -35,7 +35,7 @@ img{border:0;}
 .ddnewhead_operate p a:hover { color:#f60;}
 .ddnewhead_operate a.login_link, .ddnewhead_operate a.login_link:hover {color:#1a66b3;margin-right:5px;}
 
-.ddnewhead_separate {padding:0;width:1px;height:21px;background:url(/images/unite_header_bg_1101.gif) no-repeat 0 -102px;font-size:0;line-height:0;overflow:hidden;}
+.ddnewhead_separate {padding:0;width:1px;height:21px;background:url(../images/unite_header_1101.gif) no-repeat 0 -102px;font-size:0;line-height:0;overflow:hidden;}
 
 /*我的当当按钮*/
 .ddnewhead_operate_nav .ddnewhead_mydd {position:relative;width:71px;z-index:200;}
@@ -73,7 +73,7 @@ img{border:0;}
 
 .ddnewhead_mainnav {float:left;display:inline;width:auto;height:30px;}
 .ddnewhead_mainnav li { float:left;display:inline;height:30px;margin-right:5px;}
-.ddnewhead_mainnav  .new {display:block;width:25px;height:14px;position:absolute;right:0;top:-10px;background:url(/images/new2.gif) no-repeat 0 0;_right:-1px;}
+.ddnewhead_mainnav  .new {display:block;width:25px;height:14px;position:absolute;right:0;top:-10px;background:url(../images/new2.gif) no-repeat 0 0;_right:-1px;}
 
 .ddnewhead_mainnav a { display:block;width:77px;height:30px;background:url(../images/unite_header_1101.gif) no-repeat 0 -50px;color:#4e4e4e;font-weight:bold;font-size:14px;line-height:20px;text-align:center;text-decoration:none;}
 .ddnewhead_mainnav li a {font-size:14px;}
@@ -85,7 +85,7 @@ img{border:0;}
 .ddnewhead_mainnav a.nonce span,.ddnewhead_mainnav a.nonce:hover span {color:#fff;}
 .ddnewhead_mainnav .book {margin:0;padding:0;width:77px;color:#105f4b;}
 .ddnewhead_mainnav .book {margin:0;padding:0;width:77px;color:#105f4b;position:relative;}
-.ddnewhead_mainnav .book .icon_surprise{background:url(/images/icon_20110624.gif) no-repeat 0 0;display:block;font-size:0;height:18px;line-height:0;overflow:hidden;padding:0;position:absolute;right:3px;top:-11px;width:25px;}
+.ddnewhead_mainnav .book .icon_surprise{background:url(../images/icon_20110624.gif) no-repeat 0 0;display:block;font-size:0;height:18px;line-height:0;overflow:hidden;padding:0;position:absolute;right:3px;top:-11px;width:25px;}
 
 .ddnewhead_mainnav .book span,.ddnewhead_mainnav .book:hover,.ddnewhead_mainnav .book:hover span {color:#105f4b;}
 .ddnewhead_mainnav .guan {padding:6px;padding-bottom:0;letter-spacing:0;text-align:center;}
@@ -104,14 +104,14 @@ img{border:0;}
 .ddnewhead_mainnav a.goods:hover span { cursor:default;}
 
 /*百货浮窗*/
-.ddnewhead_mainnav .ddnewhead_goods_panel {display:none;position:absolute;top:28px;width:352px;height:113px;background:#fff url("/images/unite_header_bg_1101.gif") repeat-x scroll 0 97px;border:1px solid #ee7304;z-index:400;overflow:hidden;}
+.ddnewhead_mainnav .ddnewhead_goods_panel {display:none;position:absolute;top:28px;width:352px;height:113px;background:#fff url("../images/unite_header_bg_1101.gif") repeat-x scroll 0 97px;border:1px solid #ee7304;z-index:400;overflow:hidden;}
 .ddnewhead_mainnav .ddnewhead_goods_panel ul {float:none;margin:0;padding:6px;width:338px;height:99px;border:1px solid #fc883b;overflow:hidden;}
 .ddnewhead_mainnav .ddnewhead_goods_panel li {padding-left:2px;width:336px;height:23px;line-height:23px;border-bottom:1px solid #f0f0f0;overflow:hidden;}
 .ddnewhead_mainnav .ddnewhead_goods_panel li a{ float:left;display:inline;margin:0;padding:0 15px 0 21px;width:48px;height:23px;font-weight:normal;font-size:12px;line-height:23px;background:url(../images/unite_header_1101.gif) no-repeat -189px -197px;text-decoration:none;color:#404040;text-align:left;}
 .ddnewhead_mainnav .ddnewhead_goods_panel li a:hover {color:#f60;text-decoration:underline;background:url(../images/unite_header_1101.gif) no-repeat -189px -197px;}
 .ddnewhead_mainnav .ddnewhead_goods_panel .ddnewhead_goods_panel_list_last {border:none;}
 .ddnewhead_mainnav .ddnewhead_brand {position:relative;z-index:100;}
-.ddnewhead_mainnav .ddnewhead_brand .new {display:block;width:25px;height:14px;position:absolute;right:0;top:-10px;background:url(/images/new2.gif) no-repeat 0 0;_right:-1px;}
+.ddnewhead_mainnav .ddnewhead_brand .new {display:block;width:25px;height:14px;position:absolute;right:0;top:-10px;background:url(../images/new2.gif) no-repeat 0 0;_right:-1px;}
 .ddnewhead_mainnav .ddnewhead_goods_panel li a.hot{color:#f60;}
 /* 右侧链接*/
 .ddnewhead_topnav .ddnewhead_addnav {float:right;display:inline;margin-top:5px;height:21px;}
@@ -136,7 +136,7 @@ img{border:0;}
 .ddnewhead_addnav .ddnewhead_ddbang_list li a:hover,.ddnewhead_addnav .ddnewhead_ddbang_list li a.hover { color:#f60;text-decoration:underline;}
 
 /*当当榜顶部小图*/
-.ddnewhead_addnav .ddnewhead_bang .up {position:absolute;left:27px;top:-15px;width:25px;height:14px;background:url(/images/new.gif) no-repeat 0 0;font-size:0;line-height:0;overflow:hidden; z-index;20000;}
+.ddnewhead_addnav .ddnewhead_bang .up {position:absolute;left:27px;top:-15px;width:25px;height:14px;background:url(../images/new.gif) no-repeat 0 0;font-size:0;line-height:0;overflow:hidden; z-index;20000;}
 
 /* 更多服务链接*/
 .ddnewhead_addnav .ddnewhead_more_services {position:relative;width:74px;z-index:100;}
@@ -151,8 +151,8 @@ img{border:0;}
 .ddnewhead_addnav .ddnewhead_services_list li a:link,.ddnewhead_mydd_list li a:visited{color:#404040;}
 .ddnewhead_addnav .ddnewhead_services_list li a:hover, .ddnewhead_addnav .ddnewhead_services_list li a.hover { color:#f60;text-decoration:underline;}
 
-.ddnewhead_hotsort {clear:both;width:100%;height:31px;background:url(/images/unite_header_bg_1101.gif) repeat-x 0 -60px;overflow:hidden;}
-.ddnewhead_hotsort_list {margin:0 auto;padding:0 9px;width:942px;height:31px;background:url(/images/unite_header_bg_1101.gif) repeat-x 0 -60px;overflow:hidden;}
+.ddnewhead_hotsort {clear:both;width:100%;height:31px;background:url(../images/unite_header_bg_1101.gif) repeat-x 0 -60px;overflow:hidden;}
+.ddnewhead_hotsort_list {margin:0 auto;padding:0 9px;width:942px;height:31px;background:url(../images/unite_header_bg_1101.gif) repeat-x 0 -60px;overflow:hidden;}
 .ddnewhead_hotsort_list a, .ddindex_head_hotsort_list span {display:inline-block;text-align:center;}
 .ddnewhead_hotsort_list a {padding:7px 9px 5px;background:url(../images/unite_header_1101.gif) no-repeat -450px -186px;color:#fff;font-size:12px;text-decoration:none;}
 .ddnewhead_hotsort_list a.nobg {background:none;}
@@ -160,8 +160,8 @@ img{border:0;}
 .ddnewhead_hotsort_list a.no_sep {background:none;}
 
 /*搜索区*/
-.ddnewhead_bottom {width:100%;height:39px;background:#fff url(/images/unite_header_bg_1101.gif) repeat-x scroll 0 -21px;overflow:hidden;}
-.ddnewhead_bottom .ddnewhead_search_panel{margin:0 auto;width:960px;padding-top:4px;background:#fff url(/images/unite_header_bg_1101.gif) repeat-x scroll 0 -21px;}
+.ddnewhead_bottom {width:100%;height:39px;background:#fff url(../images/unite_header_bg_1101.gif) repeat-x scroll 0 -21px;overflow:hidden;}
+.ddnewhead_bottom .ddnewhead_search_panel{margin:0 auto;width:960px;padding-top:4px;background:#fff url(../images/unite_header_bg_1101.gif) repeat-x scroll 0 -21px;}
 
 .ddnewhead_category { float:left;display:inline;margin-top:1px;width:230px;height:34px;background:url(../images/unite_header_1101.gif) no-repeat 0 -100px; }
 .ddnewhead_category_homepage {background:url(../images/unite_header_1101.gif) no-repeat 0 -266px;}
@@ -183,7 +183,7 @@ img{border:0;}
 .ddnewhead_adsearch a{float:left;display:inline;padding:0 6px 0 0;line-height:18px;color:#404040;text-decoration:none;}
 .ddnewhead_adsearch a:hover {color:#f60;}
 .ddnewhead_adsearch span {float:left;}
-.ddnewhead_adsearch .ddnewhead_adsearch_separate {float:left;display:inline;margin-left:1px;padding-left:9px;padding-right:0;background:url(/images/unite_header_bg_1101.gif) no-repeat 0 -105px;*background-position:0 -106px;}
+.ddnewhead_adsearch .ddnewhead_adsearch_separate {float:left;display:inline;margin-left:1px;padding-left:9px;padding-right:0;background:url(../images/unite_header_bg_1101.gif) no-repeat 0 -105px;*background-position:0 -106px;}
 .ddnewhead_adsearch .ddnewhead_search_hot {float:left;display:inline;width:200px;height:18px;line-height:18px;overflow:hidden;}
 
 /*购物车页头*/
@@ -195,14 +195,14 @@ img{border:0;}
 .ddnewhead_category .ddnewhead_pop ul { margin:0 5px;}
 .ddnewhead_category .ddnewhead_pop ul li{ border-bottom:1px solid #f6e6d4;}
 .ddnewhead_category .ddnewhead_pop ul li.hover{ border-bottom:1px solid #fff8f2; position:relative;z-index:100000;_height:24px;}
-.ddnewhead_category .ddnewhead_pop ul li h2{ display:block; height:29px; width:218px; background:url(/images/cion_ddhome.gif) no-repeat -55px -201px; overflow:hidden; z-index:10000;position:relative;}
+.ddnewhead_category .ddnewhead_pop ul li h2{ display:block; height:29px; width:218px; background:url(../images/cion_ddhome.gif) no-repeat -55px -201px; overflow:hidden; z-index:10000;position:relative;}
 .ddnewhead_category .ddnewhead_pop ul li.hover h2{ position:relative; z-index:100000; width:185px;}
 .ddnewhead_category .ddnewhead_pop h2 a.label,.ddnewhead_pop h2 a:hover.label{ display:block; color:#b45a01; font-weight:bold; cursor:pointer; text-decoration:none; overflow:hidden; width:178px; z-index:30000; border:1px solid #fff8f2;}
 .ddnewhead_category .ddnewhead_pop li.hover h2 a.label,.ddnewhead_pop li.hover h2 a:hover.label{ background:#fff; border:1px solid #d8986b; border-right:none;width:154px;}
-.ddnewhead_category .ddnewhead_pop h2 a span{ display:block; padding:6px 0 0 46px;width:52px; height:21px;background-image:url(/images/cion_ddhome.gif); background-repeat:no-repeat;line-height:18px;}
+.ddnewhead_category .ddnewhead_pop h2 a span{ display:block; padding:6px 0 0 46px;width:52px; height:21px;background-image:url(../images/cion_ddhome.gif); background-repeat:no-repeat;line-height:18px;}
 .ddnewhead_category .ddnewhead_pop h2 a:hover span{ text-decoration:underline; color:#f60; }
 .ddnewhead_category a.ddnewhead_pop_sortall,.ddnewhead_category a.ddnewhead_pop_sortall:hover{ display:block; padding:11px 0 6px 20px;color:#666;font-weight:bold;}
-.ddnewhead_category .ddnewhead_sort_bottom{ width:230px; height:2px; line-height:2px; overflow:hidden; background:url(/images/pic_ddhome.gif) no-repeat 0 0;_width:228px;}
+.ddnewhead_category .ddnewhead_sort_bottom{ width:230px; height:2px; line-height:2px; overflow:hidden; background:url(../images/pic_ddhome.gif) no-repeat 0 0;_width:228px;}
 .ddnewhead_category .ddnewhead_icon_book { background-position:10px 7px;}
 .ddnewhead_category .ddnewhead_icon_cellphone { background-position:-239px 5px;}
 .ddnewhead_category .ddnewhead_icon_computer { background-position:11px -22px;}
@@ -270,8 +270,8 @@ img{border:0;}
 .ddnewhead_category .ddnewhead_goods_popup2{top:-299px;height:326px;}
 
 .ddnewhead_mainnav .ddnewhead_brand,.ddnewhead_mainnav .ddnewhead_promo{position:relative;z-index:100;}
-.ddnewhead_mainnav .ddnewhead_brand .hot{display:block;width:25px;height:14px;position:absolute;right:0;top:-11px;background:url(/images/hot_20101228.gif) no-repeat 0 0;_right:-1px;}
-.ddnewhead_mainnav .ddnewhead_promo .new{display:block;width:25px;height:15px;position:absolute;right:0;top:-11px;background:url(/images/new_20101228.gif) no-repeat 0 0;_right:-1px;}
+.ddnewhead_mainnav .ddnewhead_brand .hot{display:block;width:25px;height:14px;position:absolute;right:0;top:-11px;background:url(../images/hot_20101228.gif) no-repeat 0 0;_right:-1px;}
+.ddnewhead_mainnav .ddnewhead_promo .new{display:block;width:25px;height:15px;position:absolute;right:0;top:-11px;background:url(../images/new_20101228.gif) no-repeat 0 0;_right:-1px;}
 
 /* 自动搜索 */
 ddnewhead_operate #key{ display:inline}
