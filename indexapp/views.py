@@ -10,7 +10,7 @@ def index(request):
     request.session["exit"]="1"
     stauts=request.session.get("login")
     user=request.session.get("log")
-    new_books=TBook.objects.all().order_by("pushish_time","book_name")[:8]#新书上架
+    new_books=TBook.objects.all().order_by("-pushish_time","book_name")[:8]#新书上架
     sales_book=TBook.objects.all().order_by("sales","book_name")[:5]#热卖榜
     saless_book=TBook.objects.all().order_by("sales","book_name")[:10]#热卖榜
     flag=request.GET.get("flag")

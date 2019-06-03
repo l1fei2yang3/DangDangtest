@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0641107f-1ebd-4235-a13b-8fff4dbf2a75" name="Default Changelist" comment="" />
+    <list default="true" id="0641107f-1ebd-4235-a13b-8fff4dbf2a75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/book_price/019d9373-0844-4bc7-bae3-689e309fd6dd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/book_price/564b2520-0afc-4940-9f77-241918d8a9a7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/book_price/c24895df-6887-4e99-b4a0-1b3b23bf49f5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/book_price/d47d1e05-f2db-4ca4-adea-8e3b431da0ae.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/indexapp/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,18 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/main/add.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="38" column="38" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="38" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#form#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/main/list.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -91,11 +86,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mangerapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="185" column="31" selection-start-line="185" selection-start-column="31" selection-end-line="185" selection-end-column="31" />
+            <state relative-caret-position="479">
+              <caret line="191" column="33" selection-start-line="191" selection-start-column="33" selection-end-line="191" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/indexapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -183,7 +190,6 @@
         <option value="$PROJECT_DIR$/shopapp/cart.py" />
         <option value="$PROJECT_DIR$/shopapp/urls.py" />
         <option value="$PROJECT_DIR$/templates/userapp/register.html" />
-        <option value="$PROJECT_DIR$/indexapp/views.py" />
         <option value="$PROJECT_DIR$/templates/userapp/register ok.html" />
         <option value="$PROJECT_DIR$/userapp/send_mail.py" />
         <option value="$PROJECT_DIR$/send_mail.py" />
@@ -214,14 +220,15 @@
         <option value="$PROJECT_DIR$/mangerapp/urls.py" />
         <option value="$PROJECT_DIR$/templates/main/list.html" />
         <option value="$PROJECT_DIR$/mangerapp/views.py" />
+        <option value="$PROJECT_DIR$/indexapp/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="120" />
-    <option name="y" value="152" />
+    <option name="y" value="151" />
     <option name="width" value="1695" />
-    <option name="height" value="1104" />
+    <option name="height" value="1105" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -238,56 +245,7 @@
             <path>
               <item name="DangDang" type="b2602c69:ProjectViewProjectNode" />
               <item name="DangDang" type="462c0819:PsiDirectoryNode" />
-              <item name="DangDang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangDang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DangDang" type="462c0819:PsiDirectoryNode" />
-              <item name="mangerapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangDang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DangDang" type="462c0819:PsiDirectoryNode" />
-              <item name="shopapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangDang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DangDang" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangDang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DangDang" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangDang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DangDang" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangDang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DangDang" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="indexapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangDang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DangDang" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangDang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DangDang" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="shopapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DangDang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DangDang" type="462c0819:PsiDirectoryNode" />
-              <item name="userapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -515,7 +473,8 @@
       <workItem from="1559397440362" duration="1411000" />
       <workItem from="1559437728528" duration="510000" />
       <workItem from="1559438403753" duration="29973000" />
-      <workItem from="1559522784025" duration="329000" />
+      <workItem from="1559522784025" duration="1392000" />
+      <workItem from="1559553689189" duration="1392000" />
     </task>
     <task id="LOCAL-00001" summary="用pycharm提交">
       <created>1559007494703</created>
@@ -566,11 +525,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559522917189</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="增加了后台管理员系统">
+      <created>1559523131734</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559523131734</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205766000" />
+    <option name="totallyTimeSpent" value="208221000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -584,12 +550,12 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13739946" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.121313676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.2444134" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.2444134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -718,16 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indexapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -903,9 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="38" column="38" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -976,8 +929,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mangerapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="185" column="31" selection-start-line="185" selection-start-column="31" selection-end-line="185" selection-end-column="31" />
+        <state relative-caret-position="479">
+          <caret line="191" column="33" selection-start-line="191" selection-start-column="33" selection-end-line="191" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indexapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
