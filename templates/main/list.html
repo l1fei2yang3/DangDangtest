@@ -1,23 +1,25 @@
 <style>
-    .a{
-                width:20px;
-                height: 20px;
-                border:1px solid #e1e2e3;
-                cursor:pointer;
-                display: inline-block;
-                text-align: center;
-                line-height: 20px;
-                }
-    .b{
-                border:0;
-                width:20px;
-                height: 20px;
-                cursor:pointer;
-                display: inline-block;
-                text-align: center;
-                line-height: 20px;
-                color: dodgerblue;
-                }
+    .a {
+        width: 20px;
+        height: 20px;
+        border: 1px solid #e1e2e3;
+        cursor: pointer;
+        display: inline-block;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .b {
+        border: 0;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        display: inline-block;
+        text-align: center;
+        line-height: 20px;
+        color: dodgerblue;
+    }
+
     a {
         text-decoration: none;
     }
@@ -80,14 +82,14 @@
 <div class="d1">
     <span class="s1">管理人员基本信息表</span>
     <span class="s2">
-		<a href="#">添加</a>
-		<a href="#">删除</a>
+		<a href="{% url 'main:add' %}">添加</a>
+        <a href="javascript:(0)" onclick="deleteall()">删除</a>
 	</span>
 </div>
 <table border="2" width="100%" cellspacing="0" class="t1">
     <tr>
         <td>
-            <input type="checkbox"/>
+            <input type="checkbox" onclick="checkAll()"/>
         </td>
         <td>商品ID</td>
         <td>商品名称</td>
@@ -103,7 +105,7 @@
     {% for u in page.object_list %}
         <tr>
             <td>
-                <input type="checkbox"/>
+                <input type="checkbox" name="item" value="{{ u.id }}"/>
             </td>
             <td>{{ u.id }}</td>
             <td>{{ u.book_name }}</td>
@@ -112,14 +114,16 @@
             <td>{{ u.market_price }}</td>
             <td>{{ u.dangdang_price }}</td>
             <td>{% if u.pics %}
-                <img src="{% static u.pics.url %}" alt="{{ u.book_name }}" width="40px"></td>
+                <img src="{% static u.pics %}" alt="{{ u.book_name }}" width="40px"></td>
             {% endif %}
-            <td></td>
-            <td></td>
+
+            <td>{{ u.storage }}</td>
+            <td>{{ u.category__category_name }}</td>
             <td>
                 <a style="color: #2ca024" href="{% url 'main:delete' %}?id={{ u.id }}&number={{ number }}"
-                   onclick="deteledata()">删除员工</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a style="color: #2ca024" href="{% url 'main:delete' %}?id={{ u.id }}&number={{ number }}">修改员工</a>
+                   onclick="deteledata()">删除商品</a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <a style="color: #2ca024" href="{% url 'main:update_book' %}?id={{ u.id }}&number={{ number }}">修改商品</a>
             </td>
         </tr>
     {% endfor %}
@@ -168,6 +172,44 @@
         {% endif %}
     </div>
 </div>
+<script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+<script>
+    var isCheckAll = false;
+
+    function checkAll() {
+        if (isCheckAll) {
+            $("input[type='checkbox']").each(function () {
+                this.checked = false;
+            });
+            isCheckAll = false;
+        } else {
+            $("input[type='checkbox']").each(function () {
+                this.checked = true;
+            });
+            isCheckAll = true;
+        }
+    }
+
+    function deleteall() {
+        obj = document.getElementsByName("item");
+        alert("您确定要删除吗？")
+        check_val = [];
+        for (k in obj) {
+            if (obj[k].checked)
+                check_val.push(obj[k].value);
+        }
+        $.ajax({
+            type:'get',
+            url:'{% url "main:delete_all" %}',
+            data:"id="+check_val,
+            success:function(msg){
+                if (msg=="1"){
+                    alert("删除成功")
+                }
+            }
+        });
+    }
+</script>
 {#<div class="bottom">#}
 {#	共有 条记录，当前第 页，共 页#}
 {#	<span class="bs">#}

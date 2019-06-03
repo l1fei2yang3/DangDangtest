@@ -18,54 +18,60 @@
         padding-left: 5px;
     }
 </style>
-<form action="{% url 'main:addlogic' %}" method="post" enctype="multipart/form-data">
+{% load static %}
+<form action="{% url 'main:update_booklogic' %}?id={{ up.id }}&number={{ number }}" method="post" enctype="multipart/form-data">
     {% csrf_token %}
     <table class="table1" border="1" cellspacing="0" width="800px">
         <tr>
+            <td class="td1">商品ID:</td>
+            <td class="td2">{{ up.id }}</td>
+        </tr>
+        <tr>
             <td class="td1">商品名称:</td>
-            <td class="td2"><input type="text" name="productname"/></td>
+            <td class="td2"><input type="text" name="productname" value="{{ up.book_name }}"/></td>
         </tr>
         <tr>
             <td class="td1">作者:</td>
-            <td class="td2"><input type="text" name="author"/></td>
+            <td class="td2"><input type="text" name="author" value="{{ up.anthor }}"/></td>
         </tr>
         <tr>
             <td class="td1">出版社:</td>
-            <td class="td2"><input type="text" name="press"/></td>
+            <td class="td2"><input type="text" name="press" value="{{ up.book_publish }}"/></td>
         </tr>
         <tr>
             <td class="td1">商品类别:</td>
             <td class="td2">
                 <select name="categoty">
                     {% for cn in categoty %}
-                        <option>{{ cn.category_name}}</option>
+                        <option>{{ cn.category_name }}</option>
                     {% endfor %}
                 </select>
             </td>
         </tr>
         <tr>
-            <td class="td1">出版日期:</td>
-            <td class="td2">
-                <input type="date" name="publication_time"/>
-            </td>
-        </tr>
-        <tr>
             <td class="td1">市场价:</td>
-            <td class="td2"><input type="text" name="market_price"/></td>
+            <td class="td2"><input type="text" name="market_price" value="{{ up.market_price }}"/></td>
         </tr>
         <tr>
             <td class="td1">当当价:</td>
-            <td class="td2"><input type="text" name="dangdang_price"/></td>
+            <td class="td2"><input type="text" name="dangdang_price" value="{{ up.dangdang_price }}"/></td>
+        </tr>
+        <tr>
+            <td class="td1">库存:</td>
+            <td class="td2"><input type="text" name="storage" value="{{ up.storage }}"/></td>
         </tr>
         <tr>
             <td class="td1">书籍图片:</td>
-            <td class="td2"><img src="" alt="" width="40px" id="headimg">
+            <td class="td2">
+                {% if up.pics %}
+                    <img src="{% static up.pics.url %}" alt="{{ up.book_name }}" width="40px" id="headimg">
+                {% endif %}
                 <input type="file" name="book_price" id="changimg" onchange="chang()"/>
             </td>
         </tr>
     </table>
     <div style="margin-left: 400px;padding-top: 10px">
-        <input type="submit" value="提交">
+        <input type="submit" value="修改">
     </div>
 </form>
 <script>
